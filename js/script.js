@@ -31,7 +31,7 @@ $(document).ready(function(){
     
         // Atualiza o background e o link com o caminho correto
         $("#link").css("background-image", `url(./imagens/ads/${e}/${lstAds[e][i]["nome"]}.png)`);
-//        $("#link").attr("href", lstAds[e][i]["link"]);
+        $("#link").attr("href", lstAds[e][i]["link"]);
         $("body").css("background-color", lstAds[e][i]["bg"]);
     
         index++; // Incrementa o índice
